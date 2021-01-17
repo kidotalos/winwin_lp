@@ -145,7 +145,7 @@
             </div>
         <div class="footer_sub">
             <img class="footer_winwin" src="img/winwin_footer.PNG" >
-            <p>Copyright © 2020 YOLO Inc. All Rights Reserved.</p>
+            <p>Copyright © 2021 YOLO Inc. All Rights Reserved.</p>
             <p>運営会社　｜　個人情報保護方針</p>
         </div>
         </div>
