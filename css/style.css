@@ -464,23 +464,42 @@ body {
 }
 
 .lp_first_button{
-    display:none;
+    text-align: center;
+    width: 100%;
+    top: 110%;
+    left: 0%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+    display: inline-block;
+    font-size: 35px;
+    padding: 0;
+    border-radius: 40px;
+    text-decoration: none;
 }
 
-
 .lp_first_button:hover {
-    display: none;
+    color:#CC0099;
+    background-image: linear-gradient(45deg, #FFCFEF 0%, #FFCFEF 100%); /*後で色見直す*/
 }
 
 .first_apple{
-    display: none;
+    padding-left: 5%;
+    width: 40%;
+    height: 8%;
+    top: 118%;
+    left: 0%;
 }
 
 .first_google{
-    display: none;
+    padding-right: 5%;
+    width: 40%;
+    height: 8%;
+    top: 118%;
+    left: 53%;
 }
 
 .lp_what_is_winwin{
+    margin-top: 250px;
     height: 2700px;
 }
 
