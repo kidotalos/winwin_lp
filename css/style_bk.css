@@ -1,0 +1,502 @@
+
+body {
+    font-family: fot-udkakugo-large-pr6n, sans-serif;
+}
+
+/*ファーストビューのcss*/
+.lp_first_view{
+    font-family: fot-udkakugo-large-pr6n, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-image: url(../img/lp_firstview_bg.JPG);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+
+.lp_first_view::before {
+    content: '';
+    opacity: 0.4;
+    background-color: #040740;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.lp_span{
+    position: absolute;
+    margin: 0;
+    padding-right: 130px;
+    font-size:2.0rem;
+    color: #FFF;
+    font-weight: bold;
+    top: 37%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+    left: 5%;
+    border-bottom: solid 15px #fecfef;
+}
+
+.lp_first_view p{
+    line-height:150%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 56%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+    left: 10%;
+    color: white;
+    font-size: 70px;
+}
+
+.lp_main{
+    font-family: kan415typos-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110px;
+}
+
+.lp_profile{
+    position: absolute;
+    top: 50%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+    left: 60%;
+}
+
+.lp_winwin{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 23%;
+    left: 35%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+}
+
+.lp_first_button{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px 80px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #CC0099 0%, #CC0099 100%);
+    transition: .4s;
+}
+
+
+.lp_first_button:hover {
+    color:#CC0099;
+    background-image: linear-gradient(45deg, #FFF 0%, #FFF 100%);
+}
+
+.first_apple{
+    position: absolute;
+    width: 14%;
+    height: 6%;
+    top: 83%;
+    left: 14%;
+}
+
+.first_google{
+    position: absolute;
+    width: 14%;
+    height: 6%;
+    top: 83%;
+    left: 30%;
+}
+
+
+/*WinWinって何のcss*/
+.lp_what_is_winwin{
+    height: 1200px;
+}
+
+
+.what_is_winwin{
+    position: relative;
+    height: 450px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.what_is_winwin img{
+    padding-top: 50px;
+    width: 420px;
+    height: 250px;
+    position: absolute;
+    top: 28%;
+    left: 8%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+}
+
+.what_is_winwin_title{
+    position: absolute;
+    font-size: 80px;
+    top: 35%;
+    left: 23%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+}
+
+.what_is_winwin_title p{
+    font-size: 40px;
+}
+
+.what_is_winwin_span{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.what_is_winwin_description{
+    position: absolute;
+    top: 72%;
+    left: 25%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+}
+
+.contents{
+    display: flex;
+    height: 750px;
+    width: 100%;
+}
+
+.contents h2{
+    color:#FF33FF;
+    font-size: 32px;
+    width: 100%;
+}
+.contents img{
+    width:100%;
+}
+.contents p{
+    font-size: 18px;
+}
+
+.contents h1{
+    padding-bottom: 0px;
+    margin: 0px;
+    display: inline-block;
+    font-size: 50px;
+    background: linear-gradient(transparent 1.4em, #fecfef 0, #fecfef 1.8em, transparent 0);
+}
+
+.winwin_content{
+    height: 650px;
+    box-shadow: 3px 5px 6px 0px #9E9E9E;
+    background-color: #f8f8f8;
+    margin: 0 20px;
+    width: 30%;
+    padding: 20px;
+}
+
+.content_span{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/*how to use winwinの実装*/
+.lp_how_to_use{
+    margin-top: 50px;
+    height: 1500px;
+    width: 100%;
+}
+/*how to use winwinのタイトルの部分の実装*/
+.how_to_use_title{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.how_to_use_title img{
+    position: absolute;
+    width: 420px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+.how_to_use_title h2{
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    top: 45%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+.how_to_use_title p{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    top: 65%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+/*how to use winwinのコンテンツ部分の実装*/
+.how_to_use_contents{
+    height: 1200px;
+    display: flex;
+    width: 100%;
+}
+.how_to_content{
+    text-align: center;
+    width: 33%;
+}
+.how_to_No{
+    margin: 0;
+    line-height: 150px;
+    height: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #CC0099;
+}
+.how_to_content h3{
+    font-size: 25px;
+    color: #CC0099;
+}
+
+/*フッターの実装*/
+.lp_footer{
+    height: 1000px;
+}
+
+.footer_main{
+    height: 800px;
+    background-image: url(../img/lp_footer_bg.jpg);
+    background-size: cover;
+}
+
+.questions{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+.questions h1{
+    margin: 0;
+}
+
+.text1{
+    width: 30%;
+    padding-top: 170px;
+}
+
+.text1 h1{
+    font-size: 40px;
+    display:inline-block;
+    background: linear-gradient(transparent 1.7em, #FFCFEF 0, #FFCFEF 2.0em, transparent 0);
+}
+
+.text2{
+    width: 40%;
+    padding-top: 70px;
+}
+
+.text2 h1{
+    font-size: 40px;
+    display:inline-block;
+    background: linear-gradient(transparent 1.7em, #9AC1F5 0, #9AC1F5 2.0em, transparent 0);
+}
+
+.text3{
+    width: 30%;
+    padding-top: 120px;
+}
+
+.text3 h1{
+    font-size: 40px;
+    display:inline-block;
+    background: linear-gradient(transparent 1.7em, #F75FCE 0, #F75FCE 2.0em, transparent 0);
+}
+
+.download{
+    height: 230px;
+    width: 50%;
+    background-color: white;
+    margin: 200px auto 0 auto;
+    
+}
+
+.download_text{
+    width:100%;
+    position: relative;
+    height: 150px;
+    text-align: center;
+}
+
+.download_text p{
+    width:100%;
+    position: absolute;
+    font-size: 30px;
+    top: 35%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+.download_text h1{
+    width:100%;
+    position: absolute;
+    font-size: 40px;
+    color: #CC0099;
+    font-weight: bold;
+    top: 70%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+.download_img{
+    text-align: center;
+}
+
+.download_img img{
+    width: 180px;
+    height: 60px;
+}
+
+.footer_apple{
+    padding-right:20px;
+}
+
+.footer_google{
+    padding-left: 20px;
+}
+
+.footer_sub{
+    height: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer_sub img{
+    width: 200px;
+    height: 155px;
+}
+
+.footer_sub p{
+    margin: 0;
+}
+
+
+/*スマホ用デザインの実装*/
+@media screen and (max-width:480px){
+
+.lp_first_view{
+    height: 500px;
+    position: relative;
+    min-height: 100vh;
+    background-image: url(../img/lp_firstview_bg_Res.JPG);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.lp_profile{
+    display: none;
+}
+
+.lp_winwin{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 70%;
+    left: 0;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+}
+
+.lp_span{
+    padding-right: 60px;
+    font-weight: bold;
+    top: 60%;
+    left: 5%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+    background: linear-gradient(transparent 1.5em, #fecfef 0, #fecfef 1.7em, transparent 0);
+    border: 0px;
+}
+
+.lp_main{
+    font-size: 55px;
+}
+
+
+.lp_first_view p{
+    font-size: 30px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 82%;
+    left: 15%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+    color: white;
+}
+
+.lp_first_button{
+    display:none;
+}
+
+
+.lp_first_button:hover {
+    display: none;
+}
+
+.first_apple{
+    display: none;
+}
+
+.first_google{
+    display: none;
+}
+
+.lp_what_is_winwin{
+    height: 2700px;
+}
+
+.contents{
+    height: 2000px;
+    flex-direction: column;
+}
+    
+.winwin_content{
+    height: 650px;
+    box-shadow: 3px 5px 6px 0px #9E9E9E;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+
+    
+    
+}
