@@ -8,11 +8,11 @@ body {
     font-family: fot-udkakugo-large-pr6n, sans-serif;
     font-weight: 500;
     font-style: normal;
-    background-image: url(../img/lp_firstview_bg.JPG);
+    background-image: url(../img/lp_firstview_bg1_bg.jpg);
     background-size: cover;
     position: relative;
     width: 100%;
-    height: 1000px;
+    height: 900px;
 }
 
 .lp_first_view::before {
@@ -33,7 +33,7 @@ body {
     font-size:2.0rem;
     color: #FFF;
     font-weight: bold;
-    top: 37%;
+    top: 44%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
     left: 5%;
@@ -45,7 +45,7 @@ body {
     position: absolute;
     margin: 0;
     padding: 0;
-    top: 56%;
+    top: 62%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
     left: 10%;
@@ -63,24 +63,24 @@ body {
 .lp_profile{
     position: absolute;
     top: 50%;
+    left: 68%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
-    left: 60%;
 }
 
 .lp_winwin{
     position: absolute;
-    width: 600px;
-    height: 600px;
-    top: 23%;
-    left: 35%;
+    width: 450px;
+    height: 450px;
+    top: 16%;
+    left: 55%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
 }
 
 .lp_first_button{
     position: absolute;
-    top: 75%;
+    top: 82%;
     left: 10%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
@@ -104,7 +104,7 @@ body {
     position: absolute;
     width: 14%;
     height: 6%;
-    top: 83%;
+    top: 90%;
     left: 14%;
 }
 
@@ -112,7 +112,7 @@ body {
     position: absolute;
     width: 14%;
     height: 6%;
-    top: 83%;
+    top: 90%;
     left: 30%;
 }
 
