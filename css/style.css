@@ -8,7 +8,7 @@ body {
     font-family: fot-udkakugo-large-pr6n, sans-serif;
     font-weight: 500;
     font-style: normal;
-    background-image: url(../img/lp_firstview_bg1_bg.jpg);
+    background-image: url(../img/lp_firstview_bg.jpg);
     background-size: cover;
     position: relative;
     width: 100%;
@@ -33,11 +33,11 @@ body {
     font-size:2.0rem;
     color: #FFF;
     font-weight: bold;
-    top: 44%;
+    top: 45%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
     left: 5%;
-    border-bottom: solid 15px #fecfef;
+    background: linear-gradient(transparent 1.5em, #FFCFEF 0, #FFCFEF 2.0em, transparent 0);
 }
 
 .lp_first_view p{

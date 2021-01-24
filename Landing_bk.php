@@ -10,7 +10,7 @@
         <link rel="icon" href="img/winwin.png" sizes="16x16" type="image/png" />
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style_bk.css" />
         <!-- Javascript -->
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="js/slick.min.js"></script>
@@ -145,7 +145,7 @@
             </div>
         <div class="footer_sub">
             <img class="footer_winwin" src="img/winwin_footer.PNG" >
-            <p>Copyright © 2020 YOLO Inc. All Rights Reserved.</p>
+            <p>Copyright © 2021 YOLO Inc. All Rights Reserved.</p>
             <p>運営会社　｜　個人情報保護方針</p>
         </div>
         </div>
