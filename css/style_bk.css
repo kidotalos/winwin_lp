@@ -294,7 +294,7 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     color: white;
 }
@@ -305,7 +305,7 @@ body {
 
 .text1{
     width: 30%;
-    padding-top: 170px;
+    padding-top: 120px;
 }
 
 .text1 h1{
@@ -316,7 +316,7 @@ body {
 
 .text2{
     width: 40%;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .text2 h1{
@@ -327,7 +327,7 @@ body {
 
 .text3{
     width: 30%;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 .text3 h1{
