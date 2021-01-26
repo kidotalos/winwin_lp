@@ -46,9 +46,13 @@
     <body>
         <!-- ファーストビューの実装 -->
         <div class="lp_first_view">
+            <div class="for_res">
+                <h1>二次会で使える</h1>
+                <h2>マッチングアプリ</h2>
+            </div>
             <img class="lp_profile" src="img/profile.PNG" >
             <img class="lp_winwin" src="img/winwin_top.PNG" >
-            <span class="lp_span">福岡初！地域限定</span>
+            <span class="lp_span">地域限定！福岡でしか使えない。</span>
             <p><span class="lp_main">5Gの出会い</span><br>を友達と体感</p>
             <a href="http://localhost/landing.php" class="lp_first_button">今すぐ簡単無料登録！</a>
             <img class="first_apple" src="img/apple.png" >
@@ -62,7 +66,7 @@
                         <p> <span class="what_is_winwin_span">Win Win </span>って何？</p>
                     </div>
                     <div class="what_is_winwin_description">
-                        <h1>その日のうちに友達同士でのマッチングを可能にした<br>地域限定のアプリです！</h1>
+                        <h1>その日のうちに友達同士でのマッチングを可能にした<br>二次会向けのマッチングアプリです！</h1>
                     </div>
                 </div>
                 <!-- こっからコンテンツ部分 -->

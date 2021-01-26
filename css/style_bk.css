@@ -29,7 +29,7 @@ body {
 .lp_span{
     position: absolute;
     margin: 0;
-    padding-right: 130px;
+    padding-right: 80px;
     font-size:2.0rem;
     color: #FFF;
     font-weight: bold;
@@ -415,7 +415,7 @@ body {
     height: 500px;
     position: relative;
     min-height: 100vh;
-    background-image: url(../img/lp_firstview_bg_sub_res.jpg);
+    background-image: url(../img/lp_firstview_bg_res2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -504,6 +504,8 @@ body {
     margin-top: 250px;
     height: 2700px;
 }
+
+
 
 .contents{
     height: 2000px;
