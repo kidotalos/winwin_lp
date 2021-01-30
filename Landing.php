@@ -58,15 +58,25 @@
             <img class="first_apple" src="img/apple.png" >
             <img class="first_google" src="img/google.png" >
         </div>
+        <!-- レスポンシブのためのクラス -->
+        <div class="for_res_link">
+            <div class="subsc_for_res">
+                <a href="http://localhost/landing.php" class="lp_first_button_for_res">今すぐ簡単無料登録！</a>
+            </div>
+            <div class="first_img_for_res">
+                <img class="first_applefor_res" src="img/apple.png" >
+                <img class="first_googlefor_res" src="img/google.png" >
+            </div>
+        </div>
         <!-- WinWinとはの実装 -->
         <div class="lp_what_is_winwin">
                 <div class="what_is_winwin">
-                    <img class="what_is_winwin_title_img" src="img/winwin_cloud.jpg">
+                    <img class="what_is_winwin_title_img" src="img/winwin_cloud_res.jpg">
                     <div class="what_is_winwin_title">
-                        <p> <span class="what_is_winwin_span">Win Win </span>って何？</p>
+                        <p> <span class="what_is_winwin_span">WinWin </span>の特徴とは？</p>
                     </div>
                     <div class="what_is_winwin_description">
-                        <h1>その日のうちに友達同士でのマッチングを可能にした<br>二次会向けのマッチングアプリです！</h1>
+                        <h1>友達友達といる時に使える<br>二次会向けのマッチングアプリです</h1>
                     </div>
                 </div>
                 <!-- こっからコンテンツ部分 -->

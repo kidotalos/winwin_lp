@@ -4,7 +4,12 @@ body {
 }
 
 /*ファーストビューのcss*/
+/* レスポンシブ用のクラスのためここでは非表示 */
 .for_res{
+    display: none;
+}
+/* レスポンシブ用のクラスのためここでは非表示 */
+.for_res_link{
     display: none;
 }
 .lp_first_view{
@@ -411,6 +416,7 @@ body {
 
 /*スマホ用デザインの実装*/
 @media screen and (max-width:480px){
+/*ファーストビューのレスポンシブ用css*/
 .for_res{
     display: inline;
     text-align: center;
@@ -436,7 +442,7 @@ body {
     width: 100%;
 
 }
-
+/*レスポンシブではプロフィールの画像表示しない*/
 .lp_profile{
     display: none;
 }
@@ -478,75 +484,124 @@ body {
     transform : translateY(-50%);
     color: white;
 }
-
+/*レスポンシブではクラスからはみ出して表示させるため、ここでは非表示にする。*/
 .lp_first_button{
-    text-align: center;
-    width: 100%;
-    top: 110%;
-    left: 0%;
-    -webkit-transform : translateY(-50%);
-    transform : translateY(-50%);
-    display: inline-block;
-    font-size: 35px;
-    padding: 0;
-    border-radius: 40px;
-    text-decoration: none;
+    display: none;
 }
 
 .lp_first_button:hover {
-    color:#CC0099;
-    background-image: linear-gradient(45deg, #FFCFEF 0%, #FFCFEF 100%); /*後で色見直す*/
+    display: none;
 }
 
 .first_apple{
-    padding-left: 5%;
-    width: 40%;
-    height: 8%;
-    top: 118%;
-    left: 0%;
+    display: none;
 }
 
 .first_google{
-    padding-right: 5%;
-    width: 40%;
-    height: 8%;
-    top: 118%;
-    left: 53%;
+    display: none;
 }
-
-.lp_what_is_winwin{
-    margin-top: 250px;
-    height: 2700px;
-}
-
-.what_is_winwin{
-    height:500px;
-    padding-top: 100px;
-    margin-top: 0;
+/*レスポンシブでは、登録用のクラスを表示するためここでcssの指定*/
+.for_res_link{
     text-align: center;
+    display: block;
+    height: 220px;
     width: 100%;
 }
 
+.subsc_for_res{
+    height: 100px;
+}
+
+.lp_first_button_for_res {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 80px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #CC0099 0%, #fecfef 100%);
+    transition: .4s;
+  }
+  
+  .lp_first_button_for_res:hover {
+    background-image: linear-gradient(45deg, #CC0099 0%, #DF5286 100%);
+  }
+
+.first_img_for_res{
+    justify-content: center;
+    height: 120px;
+    display: flex;
+    width: 100%;
+}
+
+.first_img_for_res img{
+    height: 50px;
+    width: 170px;
+}
+
+.lp_what_is_winwin{
+    height: 2000px;
+    width: 100%;
+}
+
+.what_is_winwin{
+    height:300px;
+    /* padding-top: 100px; */
+    margin-top: 0;
+    text-align: center;
+    /* width: 100%; */
+}
+
 .what_is_winwin img{
-    position: static;
-    width: 330px;
-    height: 300px;
-} 
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding:0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5%;
+    right: 0;
+    /* display: flex;
+    justify-content: center; */
+    } 
 
 .what_is_winwin_title {
+    color: #494a4b;
     font-size: 10px;
-    top: 22%;
-    left: 18%;
+    position: static;
+    /* position: absolute; */
 }
 
 .what_is_winwin_title p{
+    padding-top: 20px;
+    padding-left: 10px;
     font-size: 20px;
 }
 
 .what_is_winwin_span{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 200;
 }
+
+.what_is_winwin_description{
+    text-align: left;
+    color: #494a4b;
+    height: 130px;
+    font-size: 9px;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.what_is_winwin_description h1{
+    margin: 0%;
+    padding-left: 15%;
+}
+
 
 .contents{
     height: 2000px;
