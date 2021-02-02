@@ -1,5 +1,8 @@
 
 body {
+    padding:0;
+    margin:0;
+    width: 100%;
     font-family: fot-udkakugo-large-pr6n, sans-serif;
 }
 
@@ -133,18 +136,18 @@ body {
 
 .what_is_winwin{
     position: relative;
-    height: 450px;
+    height: 400px;
     margin-top: 30px;
     width: 100%;
 }
 
 .what_is_winwin img{
     padding-top: 50px;
-    width: 420px;
+    width: 250px;
     height: 250px;
     position: absolute;
-    top: 28%;
-    left: 8%;
+    top: 20%;
+    left: 18%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
 }
@@ -152,8 +155,9 @@ body {
 .what_is_winwin_title{
     position: absolute;
     font-size: 80px;
-    top: 35%;
-    left: 23%;
+    top: 27%;
+    left: 30%;
+    color: #494a4b;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
 }
@@ -164,16 +168,22 @@ body {
 
 .what_is_winwin_span{
     font-size: 70px;
-    font-weight: bold;
+    font-weight: 200;
 }
 
 .what_is_winwin_description{
     position: absolute;
     top: 72%;
-    left: 25%;
+    left: 30%;
+    color: #494a4b;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
 }
+
+.swiper-container{
+    width: 1000px;
+    height: 400px;
+ }
 
 .contents{
     display: flex;
@@ -261,6 +271,7 @@ body {
     -webkit- transform: translateY(-50%) translateX(-50%);
     margin: auto;
 }
+
 /*how to use winwinのコンテンツ部分の実装*/
 .how_to_use_contents{
     height: 1200px;
@@ -286,7 +297,7 @@ body {
 
 /*フッターの実装*/
 .lp_footer{
-    height: 1000px;
+    height: 1100px;
 }
 
 .footer_main{
@@ -418,17 +429,17 @@ body {
 @media screen and (max-width:480px){
 /*ファーストビューのレスポンシブ用css*/
 .for_res{
-    display: inline;
-    text-align: center;
+    /* display: inline;
+    text-align: center; */
 }
 .for_res h1{
-    margin-top: 0;
+    /* margin-top: 0;
     padding-top: 50px;
-    margin-bottom: 0;
+    margin-bottom: 0; */
 }
 
 .for_res h2{
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 
 .lp_first_view{
@@ -541,16 +552,14 @@ body {
 }
 
 .lp_what_is_winwin{
-    height: 2000px;
+    height: 2500px;
     width: 100%;
 }
 
 .what_is_winwin{
-    height:300px;
-    /* padding-top: 100px; */
+    height:160px;
     margin-top: 0;
     text-align: center;
-    /* width: 100%; */
 }
 
 .what_is_winwin img{
@@ -563,15 +572,11 @@ body {
     bottom: 0;
     left: 5%;
     right: 0;
-    /* display: flex;
-    justify-content: center; */
     } 
 
 .what_is_winwin_title {
-    color: #494a4b;
     font-size: 10px;
     position: static;
-    /* position: absolute; */
 }
 
 .what_is_winwin_title p{
@@ -582,16 +587,14 @@ body {
 
 .what_is_winwin_span{
     font-size: 40px;
-    font-weight: 200;
 }
 
 .what_is_winwin_description{
     text-align: left;
-    color: #494a4b;
     height: 130px;
     font-size: 9px;
     position: absolute;
-    top: 40%;
+    top: 75%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -604,18 +607,146 @@ body {
 
 
 .contents{
-    height: 2000px;
+    height: 500px;
     flex-direction: column;
 }
     
 .winwin_content{
+    margin: 0;
+    padding:0;
     height: 650px;
     box-shadow: 3px 5px 6px 0px #9E9E9E;
     background-color: #f8f8f8;
     width: 100%;
 }
 
+.lp_how_to_use{
+    height: 4500px;
+}
 
+.how_to_use_contents{
+    flex-direction: column;
+}
+
+/*how to use winwinのタイトルの部分の実装*/
+.how_to_use_title{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    color: #494a4b;
+}
+
+.how_to_use_title img{
+    position: absolute;
+    width: 420px;
+    height: 250px;
+    top: 0;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+.how_to_use_title h2{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top: 0%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+.how_to_use_title p{
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    top: 13%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+
+.footer_main{
+    width: 100%;
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* height: 800px; */
+    background-image: url(../img/lp_footer_bg_res1.jpg);
+    background-size: cover;
+}
+
+.questions{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+.download{
+    padding-bottom: 10px;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    margin: 0;
     
-    
+}
+
+.download_text{
+    width:100%;
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+
+.download_text p{
+    width:100%;
+    position: absolute;
+    font-size: 25px;
+    top: 35%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+.download_text h1{
+    width:100%;
+    position: absolute;
+    font-size: 26px;
+    color: #CC0099;
+    font-weight: bold;
+    top: 68%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+.download_img{
+    height: 50px;
+    text-align: center;
+}
+
+.download_img img{
+    width: 180px;
+    height: 40px;
+}
+
+.footer_apple{
+    padding:0;
+}
+
+.footer_google{
+    padding:0;
+}
+
+
 }
