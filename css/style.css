@@ -180,10 +180,14 @@ body {
     transform : translateY(-50%);
 }
 
-.section {
-    /* background: #ded473; */
+*.section {
+    height: 850px;
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+/* box-shadowが聞かないからoverflowプロパティを上書き  */
+  .swiper-container{
+      overflow: visible;
   }
 
   .swiper-wrapper {
@@ -191,53 +195,40 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  
-  .swiper-slide {
-    width: 32%;
-  }
+
   img {
     max-width: 100%;
   }
 
-.contents{
-    display: flex;
-    height: 750px;
+.winwin_content{
+    box-shadow: 3px 5px 6px 0px #9E9E9E;
+    background-color: #f8f8f8;
+    width: 30%;
+    padding: 20px;
+}
+
+.winwin_content h2{
+    color:#FF33FF;
+    font-size: 30px;
     width: 100%;
 }
 
-.contents h2{
-    color:#FF33FF;
-    font-size: 32px;
-    width: 100%;
-}
-.contents img{
-    width:100%;
-}
-.contents p{
+.winwin_content p{
     font-size: 18px;
 }
-
-.contents h1{
+  
+.winwin_content h1{
     padding-bottom: 0px;
     margin: 0px;
     display: inline-block;
     font-size: 50px;
-    background: linear-gradient(transparent 1.4em, #fecfef 0, #fecfef 1.8em, transparent 0);
-}
-
-/* .winwin_content{
-    height: 650px;
-    box-shadow: 3px 5px 6px 0px #9E9E9E;
-    background-color: #f8f8f8;
-    margin: 0 20px;
-    width: 30%;
-    padding: 20px;
+    background: linear-gradient(transparent 1.3em, #fecfef 0, #fecfef 1.9em, transparent 0);
 }
 
 .content_span{
     font-size: 28px;
     font-weight: bold;
-} */
+}
 
 
 /*how to use winwinの実装*/
@@ -620,34 +611,25 @@ body {
 }
 
 .section {
-    background: #ded473;
+    /* background: #ded473; */
     height: 100vh;
     padding: 2rem 0;
   }
-
-.swiper-slide {
+  
+  .title {
+    color: #333;
+    font-family: Quicksand, sans-serif;
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+  
+  .swiper-slide {
     width: 100%;
   }
   
-.swiper-slide  img {
+  img {
     max-width: 100%;
   }
-
-
-.contents{
-    height: 500px;
-    flex-direction: column;
-}
-    
-.winwin_content{
-    margin: 0;
-    padding:0;
-    height: 650px;
-    box-shadow: 3px 5px 6px 0px #9E9E9E;
-    background-color: #f8f8f8;
-    width: 100%;
-}
-
 .lp_how_to_use{
     height: 4500px;
 }

@@ -29,4 +29,3 @@ function initSwiper() {
 
 mql.addListener(initSwiper);
 initSwiper();
-

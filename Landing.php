@@ -84,20 +84,20 @@
                 <!-- こっからコンテンツ部分 -->
                 <section class="section">
                 <div class="swiper-container">
-                    <div class="swiper-wrapper contents">
-                        <div class="swiper-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide winwin_content">
                             <h2 class="content_title">この瞬間に出会いたい、、</h2>
                             <img class="content_img" src="img/content1.jpg">
                             <p class="content_text">WinWinでは<span class="content_span">「リアルタイム」</span><br>で近くのユーザーが表示されます！<br>その日のうちにマッチングできるアプリです！</p>
                             <h1>早い!</h1>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide winwin_content">
                             <h2 class="content_title">友達といるけど、、</h2>
                             <img class="content_img" src="img/content2.jpg">
                             <p class="content_text">WinWinでは<span class="content_span">「友達同士」</span><br>でのマッチングを実現するため、全てのユーザーが２人以上です！(最大５人まで)</p>
                             <h1>複数人!！</h1>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide winwin_content">
                             <h2 class="content_title">場所を気にしたくない、、</h2>
                             <img class="content_img" src="img/content3.jpg">
                             <p class="content_text">WinWinでは<span class="content_span">「遊びたい場所」</span><br>で人の目を気にせずに遊べます！<br>場所や時間に縛られずに楽しみましょう！</p>
