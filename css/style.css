@@ -180,10 +180,24 @@ body {
     transform : translateY(-50%);
 }
 
-.swiper-container{
-    width: 1000px;
-    height: 400px;
- }
+.section {
+    /* background: #ded473; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .swiper-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .swiper-slide {
+    width: 32%;
+  }
+  img {
+    max-width: 100%;
+  }
 
 .contents{
     display: flex;
@@ -211,7 +225,7 @@ body {
     background: linear-gradient(transparent 1.4em, #fecfef 0, #fecfef 1.8em, transparent 0);
 }
 
-.winwin_content{
+/* .winwin_content{
     height: 650px;
     box-shadow: 3px 5px 6px 0px #9E9E9E;
     background-color: #f8f8f8;
@@ -223,7 +237,7 @@ body {
 .content_span{
     font-size: 28px;
     font-weight: bold;
-}
+} */
 
 
 /*how to use winwinの実装*/
@@ -604,6 +618,20 @@ body {
     margin: 0%;
     padding-left: 15%;
 }
+
+.section {
+    background: #ded473;
+    height: 100vh;
+    padding: 2rem 0;
+  }
+
+.swiper-slide {
+    width: 100%;
+  }
+  
+.swiper-slide  img {
+    max-width: 100%;
+  }
 
 
 .contents{
