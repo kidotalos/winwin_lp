@@ -130,7 +130,7 @@ body {
 
 /*WinWinって何のcss*/
 .lp_what_is_winwin{
-    height: 1200px;
+    height: 1100px;
 }
 
 
@@ -185,6 +185,7 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
 /* box-shadowが聞かないからoverflowプロパティを上書き  */
   .swiper-container{
       overflow: visible;
@@ -233,7 +234,6 @@ body {
 
 /*how to use winwinの実装*/
 .lp_how_to_use{
-    margin-top: 50px;
     height: 1500px;
     width: 100%;
 }
@@ -557,7 +557,7 @@ body {
 }
 
 .lp_what_is_winwin{
-    height: 2500px;
+    height: 1000px;
     width: 100%;
 }
 

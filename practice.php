@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <h1>test</h1>
+        <h1>きょろさんラブ</h1>
     <section class="section">
     <div class="swiper-container">
         <div class="swiper-wrapper">
