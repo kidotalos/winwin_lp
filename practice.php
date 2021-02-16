@@ -12,7 +12,7 @@
 
     <body>
         <h1>きょろさんラブ</h1>
-    <section class="section">
+    <!-- <section class="section">
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide winwin_content">
@@ -34,32 +34,34 @@
                 <h1>どこでも！!！</h1>
             </div>
         </div>
-        <!-- ボタン表示 -->
-        <!-- <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="swiper-button-next swiper-button-white"></div> -->
-        <!-- ページネーション -->
-	    <div class="swiper-pagination"></div>
     </div>
+    </section> -->
+    <section class="section how_to_use_contents">
+        <div class="swiper-container">
+            <div class="swiper-wrapper how_to_use_contents">
+                <div class="swiper-slide how_to_content">
+                    <p class="how_to_No">01</p>
+                    <img class="how_to_content_img" src="img/HowTo1.png">
+                    <h3>まずは近くにいる<br>グループを検索します</h3>
+                    <p class="how_to_description">近くにいるグループを探します。<br>相手グループの条件から理想の<br>グループを探しましょう。</p>
+                </div>
+                <div class="swiper-slide how_to_content">
+                    <p class="how_to_No">02</p>
+                    <img class="how_to_content_img" src="img/HowTo2.png">
+                    <h3>「良いね！」を送って<br>相手グループにアピール</h3>
+                    <p class="how_to_description">気になったグループに「良いね！」を送って<br>マッチングをしましょう。</p>
+                </div>
+                <div class="swiper-slide how_to_content">
+                    <p class="how_to_No">03</p>
+                    <img class="how_to_content_img" src="img/HowTo3.png">
+                    <h3>マッチングが成立後<br>すぐ会える</h3>
+                    <p class="how_to_description">WinWinの最大の特徴は<br>マッチング後にメッセージで<br>場所を決めるだけで会えること！<br>出会うまでの負担を最大限に減らしています。</p>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- swiperのjsを読み込む -->
     <script type="text/javascript" src="js/practice.js"></script>
     <script src="js/swiper.min.js"></script>
-    <!-- <script>
-        var swiper = new Swiper('.swiper-container');
-        var swiper = new Swiper('.swiper-container', {
-            navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            }  
-        });
-        var mySwiper = new Swiper('.swiper-container', {
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                clickable: true,
-            }
-        });
-    </script> -->
-    <!-- <script type="text/javascript" src="js/practice.js"></script> -->
     </body>
 </html>

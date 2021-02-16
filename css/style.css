@@ -180,26 +180,31 @@ body {
     transform : translateY(-50%);
 }
 
-*.section {
-    height: 850px;
+/* swiperの実装 */
+.section {
+    /* height: 850px; */
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
 /* box-shadowが聞かないからoverflowプロパティを上書き  */
-  .swiper-container{
-      overflow: visible;
-  }
+.swiper-container{
+    overflow: visible;
+}
 
-  .swiper-wrapper {
+.swiper-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  img {
+img {
     max-width: 100%;
-  }
+}
+
+.what_is_winwin_contents{
+    height: 850px;
+}
 
 .winwin_content{
     box-shadow: 3px 5px 6px 0px #9E9E9E;
@@ -223,7 +228,7 @@ body {
     margin: 0px;
     display: inline-block;
     font-size: 50px;
-    background: linear-gradient(transparent 1.3em, #fecfef 0, #fecfef 1.9em, transparent 0);
+    background: linear-gradient(transparent 1.5em, #fecfef 0, #fecfef 1.7em, transparent 0);
 }
 
 .content_span{
@@ -295,6 +300,7 @@ body {
     font-weight: bold;
     color: #CC0099;
 }
+
 .how_to_content h3{
     font-size: 25px;
     color: #CC0099;

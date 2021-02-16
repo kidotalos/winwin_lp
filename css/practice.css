@@ -1,11 +1,11 @@
-*.section {
-    height: 850px;
+/* box-shadowが聞かないからoverflowプロパティを上書き  */
+  /* .swiper-container{
+      overflow: visible;
+  } */
+  .section {
+    background: #ded473;
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-/* box-shadowが聞かないからoverflowプロパティを上書き  */
-  .swiper-container{
-      overflow: visible;
   }
 
   .swiper-wrapper {
@@ -13,66 +13,71 @@
     display: flex;
     justify-content: space-between;
   }
-
-  img {
-    max-width: 100%;
+  
+  .swiper-slide {
+    width: 32%;
   }
 
-.winwin_content{
-    box-shadow: 3px 5px 6px 0px #9E9E9E;
-    background-color: #f8f8f8;
-    width: 30%;
-    padding: 20px;
-}
+  .how_to_use_contents{
+    height: 1200px;
+  }
 
-.winwin_content h2{
-    color:#FF33FF;
-    font-size: 30px;
-    width: 100%;
-}
-
-.winwin_content p{
-    font-size: 18px;
-}
+  .how_to_content{
+    text-align: center;
+    /* width: 33%; */
+  }
   
-.winwin_content h1{
-    padding-bottom: 0px;
-    margin: 0px;
-    display: inline-block;
-    font-size: 50px;
-    background: linear-gradient(transparent 1.3em, #fecfef 0, #fecfef 1.9em, transparent 0);
-}
-
-.content_span{
-    font-size: 28px;
+  .how_to_No{
+    margin: 0;
+    line-height: 150px;
+    height: 150px;
+    font-size: 60px;
     font-weight: bold;
-}
+    color: #CC0099;
+  } 
+
+  .how_to_content h3{
+    font-size: 25px;
+    color: #CC0099;
+  }
 
   /* ビューポートが 600px 幅より広い */
   @media screen and (max-width: 601px) {
     * {
-        box-sizing: border-box;
-      }
-      
-      .section {
-        /* background: #ded473; */
-        height: 100vh;
-        padding: 2rem 0;
-      }
-      
-      .title {
-        color: #333;
-        font-family: Quicksand, sans-serif;
-        margin: 0 0 2rem 0;
-        text-align: center;
-      }
-      
-      .swiper-slide {
-        width: 100%;
-      }
-      
-      img {
-        max-width: 100%;
-      }
-  }
+      box-sizing: border-box;
+    }
+    
+    .section {
+      padding: 2rem 0;
+    }
+    
+    .title {
+      color: #333;
+      font-family: Quicksand, sans-serif;
+      margin: 0 0 2rem 0;
+      text-align: center;
+    }
+    
+    .swiper-slide {
+      width: 100%;
+    }
+    
+    .how_to_content img {
+      max-width: 100%;
+    }
+    
+    .how_to_No{
+      margin: 0;
+      line-height: 150px;
+      height: 150px;
+      font-size: 60px;
+      font-weight: bold;
+      color: #CC0099;
+    } 
   
+    .how_to_content h3{
+      font-size: 25px;
+      color: #CC0099;
+    }
+  
+  }
