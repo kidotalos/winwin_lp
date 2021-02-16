@@ -182,6 +182,7 @@ body {
 
 /* swiperの実装 */
 .section {
+    /* background: #ded473; */
     /* height: 850px; */
     padding-left: 2rem;
     padding-right: 2rem;
@@ -198,12 +199,8 @@ body {
     justify-content: space-between;
 }
 
-img {
+img{
     max-width: 100%;
-}
-
-.what_is_winwin_contents{
-    height: 850px;
 }
 
 .winwin_content{
@@ -211,6 +208,7 @@ img {
     background-color: #f8f8f8;
     width: 30%;
     padding: 20px;
+    color: #494a4b;
 }
 
 .winwin_content h2{
@@ -244,6 +242,7 @@ img {
 }
 /*how to use winwinのタイトルの部分の実装*/
 .how_to_use_title{
+    color: #494a4b;
     position: relative;
     height: 300px;
     width: 100%;
@@ -283,27 +282,27 @@ img {
 }
 
 /*how to use winwinのコンテンツ部分の実装*/
-.how_to_use_contents{
-    height: 1200px;
-    display: flex;
-    width: 100%;
-}
-.how_to_content{
+  .how_to_content{
     text-align: center;
-    width: 33%;
-}
-.how_to_No{
+    width: 30%;
+  }
+  
+  .how_to_No{
     margin: 0;
     line-height: 150px;
     height: 150px;
     font-size: 60px;
     font-weight: bold;
     color: #CC0099;
-}
+  } 
 
-.how_to_content h3{
+  .how_to_content h3{
     font-size: 25px;
     color: #CC0099;
+  }
+
+.how_to_description{
+    color: #494a4b;
 }
 
 /*フッターの実装*/
@@ -637,7 +636,7 @@ img {
     max-width: 100%;
   }
 .lp_how_to_use{
-    height: 4500px;
+    /* height: 2000px; */
 }
 
 .how_to_use_contents{
@@ -647,7 +646,7 @@ img {
 /*how to use winwinのタイトルの部分の実装*/
 .how_to_use_title{
     position: relative;
-    height: 300px;
+    height: 200px;
     width: 100%;
     color: #494a4b;
 }
@@ -656,7 +655,7 @@ img {
     position: absolute;
     width: 420px;
     height: 250px;
-    top: 0;
+    top: 45%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
@@ -667,7 +666,7 @@ img {
     position: absolute;
     font-size: 30px;
     font-weight: bold;
-    top: 0%;
+    top: 45%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
@@ -678,7 +677,7 @@ img {
     position: absolute;
     font-size: 15px;
     font-weight: bold;
-    top: 13%;
+    top: 60%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);

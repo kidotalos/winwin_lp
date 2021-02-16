@@ -18,28 +18,7 @@
     width: 32%;
   }
 
-  .how_to_use_contents{
-    height: 1200px;
-  }
 
-  .how_to_content{
-    text-align: center;
-    /* width: 33%; */
-  }
-  
-  .how_to_No{
-    margin: 0;
-    line-height: 150px;
-    height: 150px;
-    font-size: 60px;
-    font-weight: bold;
-    color: #CC0099;
-  } 
-
-  .how_to_content h3{
-    font-size: 25px;
-    color: #CC0099;
-  }
 
   /* ビューポートが 600px 幅より広い */
   @media screen and (max-width: 601px) {
