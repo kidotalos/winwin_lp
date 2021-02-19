@@ -2,61 +2,45 @@
   /* .swiper-container{
       overflow: visible;
   } */
+  * {
+    box-sizing: border-box;
+  }
+  
   .section {
     background: #ded473;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    height: 1200px;
+    padding: 2rem 0;
   }
-
-  .swiper-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  
+  .title {
+    color: #333;
+    font-family: Quicksand, sans-serif;
+    margin: 0 0 2rem 0;
+    text-align: center;
   }
   
   .swiper-slide {
-    width: 32%;
+    width: 100%;
   }
-
-
-
+  
+  img {
+    max-width: 100%;
+  }
+  
   /* ビューポートが 600px 幅より広い */
-  @media screen and (max-width: 601px) {
-    * {
-      box-sizing: border-box;
-    }
-    
+  @media screen and (min-width: 601px) {
     .section {
-      padding: 2rem 0;
+      padding-left: 2rem;
+      padding-right: 2rem;
     }
-    
-    .title {
-      color: #333;
-      font-family: Quicksand, sans-serif;
-      margin: 0 0 2rem 0;
-      text-align: center;
+  
+    .swiper-wrapper {
+      display: flex;
+      justify-content: space-between;
     }
     
     .swiper-slide {
-      width: 100%;
+      width: 32%;
     }
-    
-    .how_to_content img {
-      max-width: 100%;
-    }
-    
-    .how_to_No{
-      margin: 0;
-      line-height: 150px;
-      height: 150px;
-      font-size: 60px;
-      font-weight: bold;
-      color: #CC0099;
-    } 
-  
-    .how_to_content h3{
-      font-size: 25px;
-      color: #CC0099;
-    }
-  
   }
+  

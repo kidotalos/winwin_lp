@@ -13,9 +13,6 @@
         <!-- CSS -->
         <link rel="stylesheet" href="css/swiper.min.css">
         <link rel="stylesheet" href="css/style.css">
-
-        <!-- Javascript -->
-        <script type="text/javascript" src="js/script.js"></script>
         
         <!-- adobeのフォント -->
         <script>
@@ -52,7 +49,7 @@
                 <h1>二次会で使える</h1>
                 <h2>マッチングアプリ</h2>
             </div>
-            <img class="lp_profile" src="img/profile.PNG" >
+            <img class="lp_profile" src="img/profile2.png" >
             <img class="lp_winwin" src="img/winwin_top.PNG" >
             <span class="lp_span">地域限定！福岡でしか使えない。</span>
             <p><span class="lp_main">5Gの出会い</span><br>を友達と体感</p>
@@ -151,14 +148,16 @@
             <div class="footer_main">
                 <div class="questions">
                     <div class="text1">
-                        <h1>今友達といる？</h1>
+                        <img class="" src="img/unnamed.png" >
+                        <h1>簡単に出会えた！</h1>
                     </div>
                     <div class="text2">
-                        <h1>異性とワイワイしたい？</h1>
+                        <img class="" src="img/unnamed.png" >
+                        <h1>友達といる時に使える<br>アプリが有ったんだ！</h1>
                     </div>
                     <div class="text3">
-                        <h1>場所を考えず</h1>
-                        <h1>はしゃぎたい？</h1>
+                        <img class="" src="img/unnamed.png" >
+                        <h1>私でも楽しめた！</h1>
                     </div>
                 </div>
                 <div class="download">
@@ -178,14 +177,7 @@
             <p>運営会社　｜　個人情報保護方針</p>
         </div>
         </div>
+    <script type="text/javascript" src="js/script.js"></script>
     <script src="js/swiper.min.js"></script>
-    <!-- <script>
-      var swiper = new Swiper('.swiper-container', {
-      navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }
-    });
-    </script> -->
     </body>
 </html>
