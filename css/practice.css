@@ -2,45 +2,126 @@
   /* .swiper-container{
       overflow: visible;
   } */
-  * {
-    box-sizing: border-box;
+
+  /* winwinとはのコンテンツのswiper */
+  /* 高さを自動にする */
+  .container_what{
+    background-color: #FFFFCC;
+    height: auto;
+    margin-bottom: 50px;
   }
-  
-  .section {
-    background: #ded473;
-    height: 1200px;
-    padding: 2rem 0;
-  }
-  
-  .title {
-    color: #333;
-    font-family: Quicksand, sans-serif;
-    margin: 0 0 2rem 0;
-    text-align: center;
+
+  .swiper-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
   
   .swiper-slide {
-    width: 100%;
+    width: 30%;
   }
-  
-  img {
+
+  .swiper-slide img{
     max-width: 100%;
   }
-  
-  /* ビューポートが 600px 幅より広い */
-  @media screen and (min-width: 601px) {
-    .section {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-  
-    .swiper-wrapper {
-      display: flex;
-      justify-content: space-between;
-    }
-    
-    .swiper-slide {
-      width: 32%;
-    }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  /* こっからコンテント側のクラスのcss実装 */
+  .winwin_content{
+    /* box-shadow: 3px 5px 6px 0px #9E9E9E;
+    background-color: #f8f8f8;
+    width: 30%;
+    padding: 20px; */
+    color: #494a4b;
+  }
+
+  .winwin_content h2{
+    color:#FF33FF;
+    font-size: 28px;
+  }
+
+  .winwin_content p{
+      font-size: 18px;
   }
   
+  .winwin_content h1{
+      padding-bottom: 0px;
+      margin: 0px;
+      display: inline-block;
+      font-size: 50px;
+      background: linear-gradient(transparent 1.2em, #fecfef 0, #fecfef 1.4em, transparent 0);
+  }
+
+  .content_span{
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  /* winwinの使い方のコンテンツのswiper */
+  /* 高さを自動にする */
+  .container_how{
+    background-color: #CCFFFF;
+    height: auto;
+  }
+
+  /* こっからコンテント側のクラスのcss実装 */
+  .how_to_content{
+    text-align: center;
+  }
+  
+  .how_to_No{
+    margin: 0;
+    line-height: 150px;
+    height: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #CC0099;
+  }
+
+  .how_to_content h3{
+    font-size: 25px;
+    color: #CC0099;
+  }
+
+  .how_to_description{
+    color: #494a4b;
+  }
+
+  /* ビューポートが 480px 幅より狭い */
+  @media screen and (max-width: 480px) {
+    .swiper-slide {
+      width: 100%;
+    }
+    
+    img {
+      max-width: 100%;
+    }
+    .swiper-pagination {
+      display: block;
+    }
+
+    /* こっからコンテント側のクラスのcss実装 */
+    /* 全体的に文字の大きさ変えとるだけ */
+    .winwin_content h2{
+      font-size: 25px;
+    }
+
+    .winwin_content p{
+        font-size: 16px;
+    }
+    
+    .winwin_content h1{
+        font-size: 30px;
+    }
+
+    .content_span{
+        font-size: 18px;
+    }
+    
+    .how_to_No{
+      font-size: 40px;
+    } 
+  }

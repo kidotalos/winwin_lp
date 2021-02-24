@@ -1,4 +1,4 @@
-var mql = window.matchMedia('(max-width: 600px)');
+var mql = window.matchMedia('(max-width: 480px)');
 var swiper = null;
 
 function initSwiper() {

@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
 
         <!-- アイコンの画像表示 -->
-        <link rel="icon" href="img/winwin.png" sizes="16x16" type="image/png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/swiper.min.css">
@@ -37,9 +37,6 @@
         </script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
-
-        <!-- レスポンシブを読み込む -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head>
 
     <body>
@@ -79,6 +76,7 @@
                     </div>
                 </div>
                 <!-- こっからコンテンツ部分 -->
+
                 <section class="section">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
