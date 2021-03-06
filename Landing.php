@@ -6,11 +6,15 @@
         <meta name="description" content="5Gの出会いを友達と体感!!友達といる時にグループ同士で出会えたら楽しそうじゃないですか??福岡の夜を友達と楽しみたいならこのアプリしかない!!">
         <!-- レスポンシブデザイン用のタグ -->
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-
+        <!-- font-awsomeのCDNを読み込む -->
+        <script src="https://kit.fontawesome.com/97b765f07d.js" crossorigin="anonymous"></script>
         <!-- アイコンの画像表示 -->
+        <link rel="icon" href="img/winwin.png" sizes="16x16" type="image/png" />
+
+        <!-- レスポンシプ用のタグ -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-        <!-- CSS -->
+        <!-- cssを読み込む(swiperのcssを先に読み込む) -->
         <link rel="stylesheet" href="css/swiper.min.css">
         <link rel="stylesheet" href="css/style.css">
         
@@ -48,14 +52,32 @@
             </div>
             <img class="lp_profile" src="img/profile2.png" >
             <img class="lp_winwin" src="img/winwin_top.PNG" >
-            <span class="lp_span">地域限定！福岡でしか使えない。</span>
-            <p><span class="lp_main">5Gの出会い</span><br>を友達と体感</p>
-            <a href="http://localhost/landing.php" class="lp_first_button">今すぐ簡単無料登録！</a>
-            <img class="first_apple" src="img/apple.png" >
-            <img class="first_google" src="img/google.png" >
+            <span class="lp_span">福岡から誕生した！新感覚アプリ</span>
+            <p class="main_ward"><span class="lp_main">5Gの出会い</span><br>を友達と体感</p>
+            <div class="registration">
+                <div class="terms_of_service_privacy">
+                    <p>
+                    <a class="terms_of_service" href="WinWin_termsofservice.html">利用規約</a>
+                    および
+                    <a class="privacy" href="WinWin_privacy.html">プライバシーポリシー</a>
+                    に同意して</p>
+                </div>
+                <a href="http://localhost/landing.php" class="lp_first_button">今すぐ簡単無料登録！</a>
+                <div class="r_img">
+                    <img class="first_apple" src="img/apple.png" >
+                    <img class="first_google" src="img/google.png" >
+                </div>
+            </div>
         </div>
         <!-- レスポンシブのためのクラス -->
         <div class="for_res_link">
+            <div class="terms_of_service_privacy">
+                <p>
+                <a class="terms_of_service" href="WinWin_termsofservice.html">利用規約</a>
+                および
+                <a class="privacy" href="WinWin_privacy.html">プライバシーポリシー</a>
+                に同意して</p>
+            </div>
             <div class="subsc_for_res">
                 <a href="http://localhost/landing.php" class="lp_first_button_for_res">今すぐ簡単無料登録！</a>
             </div>
@@ -69,43 +91,46 @@
                 <div class="what_is_winwin">
                     <img class="what_is_winwin_title_img" src="img/winwin_cloud_res.jpg">
                     <div class="what_is_winwin_title">
-                        <p> <span class="what_is_winwin_span">WinWin </span>の特徴とは？</p>
+                        <p> <span class="what_is_winwin_span">WinWin </span><br class="for_res_br">の特徴とは？</p>
                     </div>
-                    <div class="what_is_winwin_description">
-                        <h1>友達といる時に使える<br>二次会向けのマッチングアプリです</h1>
-                    </div>
+                        <h1 class="what_is_winwin_description">友達といる時など「グループ」での<br>マッチングに特化したアプリです</h1>
                 </div>
                 <!-- こっからコンテンツ部分 -->
-
-                <section class="section">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide winwin_content">
-                            <h2 class="content_title">この瞬間に出会いたい、、</h2>
-                            <img class="content_img" src="img/content1.jpg">
-                            <p class="content_text">WinWinでは<span class="content_span">「リアルタイム」</span><br>で近くのユーザーが表示されます！<br>その日のうちにマッチングできるアプリです！</p>
-                            <h1>早い!</h1>
+                <!-- winwinとはのほう -->
+                <!-- swiperのためのコンテナ -->
+                <div class="container_what">
+                    <!-- .jsで使用するためidを付与 -->
+                    <div class="swiper-container what" id="mySlider1">
+                        <!-- こっからコンテンツを表示するクラス -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide winwin_content">
+                                <div class="for_padding">
+                                    <i class="fas fa-history awsome"></i>
+                                    <h2 class="content_title">すぐに出会える</h2>
+                                    <img class="content_img" src="img/content1.jpg">
+                                    <p class="content_text">WinWinでは<span class="content_span">「リアルタイム」</span>で<br>近くのユーザーが表示されます！<br>その日のうちにマッチングできるアプリです！</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide winwin_content">
+                                <div class="for_padding">
+                                    <i class="fas fa-user-friends awsome"></i>
+                                    <h2 class="content_title">友達と一緒で安心できる</h2>
+                                    <img class="content_img" src="img/content2.jpg">
+                                    <p class="content_text">WinWinでは<span class="content_span">「友達同士」</span>で<br>ご利用いただくため、全てのユーザーが<br>２人以上です！※最大５人まで</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide winwin_content">
+                                <div class="for_padding">
+                                    <i class="fas fa-map-marker-alt awsome"></i>
+                                    <h2 class="content_title">場所を自由に選べる</h2>
+                                    <img class="content_img" src="img/content3.jpg">
+                                    <p class="content_text">WinWinでは<span class="content_span">「好きな場所」</span>で<br>人の目を気にせずに遊べます！<br>行ったところが相席屋に！？</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="swiper-slide winwin_content">
-                            <h2 class="content_title">友達といるけど、、</h2>
-                            <img class="content_img" src="img/content2.jpg">
-                            <p class="content_text">WinWinでは<span class="content_span">「友達同士」</span><br>でのマッチングを実現するため、全てのユーザーが２人以上です！(最大５人まで)</p>
-                            <h1>複数人!！</h1>
-                        </div>
-                        <div class="swiper-slide winwin_content">
-                            <h2 class="content_title">場所を気にしたくない、、</h2>
-                            <img class="content_img" src="img/content3.jpg">
-                            <p class="content_text">WinWinでは<span class="content_span">「遊びたい場所」</span><br>で人の目を気にせずに遊べます！<br>場所や時間に縛られずに楽しみましょう！</p>
-                            <h1>どこでも！!！</h1>
-                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <!-- ボタン表示 -->
-                    <!-- <div class="swiper-button-prev swiper-button-white"></div>
-                    <div class="swiper-button-next swiper-button-white"></div> -->
-                    <!-- ページネーション -->
-                    <div class="swiper-pagination"></div>
                 </div>
-                </section>
         </div>
         <!-- 使い方説明の部分 -->
         <div class="lp_how_to_use">
@@ -116,8 +141,12 @@
                 <p>使い方はかんたん</p>
             </div>
             <!-- 使い方のタイトル部分 -->
-            <section class="section">
-                <div class="swiper-container">
+            <!-- winwinの使い方のほう -->
+            <!-- swiperのためのコンテナ -->
+            <div class="container_how">
+                <!-- .jsで使用するためidを付与 -->
+                <div class="swiper-container" id="mySlider2">
+                    <!-- こっからコンテンツを表示するクラス -->
                     <div class="swiper-wrapper">
                         <div class="swiper-slide how_to_content">
                             <p class="how_to_No">01</p>
@@ -138,8 +167,9 @@
                             <p class="how_to_description">WinWinの最大の特徴は<br>マッチング後にメッセージで<br>場所を決めるだけで会えること！<br>出会うまでの負担を最大限に減らしています。</p>
                         </div>
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-            </section>
+            </div>
         </div>
         <!-- フッターの部分 -->
         <div class="lp_footer">
@@ -151,7 +181,7 @@
                     </div>
                     <div class="text2">
                         <img class="" src="img/unnamed.png" >
-                        <h1>友達といる時に使える<br>アプリが有ったんだ！</h1>
+                        <h1>友達といる時に使える<br>アプリがあったんだ！</h1>
                     </div>
                     <div class="text3">
                         <img class="" src="img/unnamed.png" >
@@ -160,8 +190,8 @@
                 </div>
                 <div class="download">
                     <div class="download_text">
-                        <p>叶えるなら、今すぐ</p>
-                        <h1>WinWin使うしかなかろーもん！</h1>
+                        <p>友達とおるとに</p>
+                        <h1>WinWin使っとらんとー？</h1>
                     </div>
                     <div class="download_img">
                         <img class="footer_apple" src="img/apple.png" >
@@ -175,7 +205,8 @@
             <p>運営会社　｜　個人情報保護方針</p>
         </div>
         </div>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script src="js/swiper.min.js"></script>
+        <!-- jsを読み込む(swiperのjsを先に読み込む) -->
+        <script src="js/swiper.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>

@@ -10,6 +10,10 @@ body {
 .for_res{
     display: none;
 }
+
+.for_res_br{
+    display: none;
+}
 /* レスポンシブ用のクラスのためここでは非表示 */
 .for_res_link{
     display: none;
@@ -39,7 +43,6 @@ body {
 .lp_span{
     position: absolute;
     margin: 0;
-    /* padding-right: 80px; */
     font-size:2.0rem;
     color: #FFF;
     font-weight: bold;
@@ -47,10 +50,10 @@ body {
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
     left: 5%;
-    background: linear-gradient(transparent 1.5em, #FFCFEF 0, #FFCFEF 2.0em, transparent 0);
+    background: linear-gradient(transparent 1.5em, #FFCFEF 0, #FFCFEF 1.8em, transparent 0);
 }
 
-.lp_first_view p{
+.main_ward{
     line-height:150%;
     position: absolute;
     margin: 0;
@@ -90,14 +93,31 @@ body {
     transform : translateY(-50%);
 }
 
-.lp_first_button{
+.registration{
     position: absolute;
-    top: 82%;
-    left: 10%;
-    -webkit-transform : translateY(-50%);
-    transform : translateY(-50%);
+    top: 78%;
+    left: 0%;
+    width: 50%;
+    text-align: center;
+}
+
+.terms_of_service_privacy{
+    width: 100%;
+}
+
+.terms_of_service_privacy p{
+    color: #fff;
+    font-size: 7px;
+}
+
+.terms_of_service_privacy a{
+    color: #fff;
+}
+
+.lp_first_button{
     display: inline-block;
-    font-size: 40px;
+    font-size: 20px;
+    margin: 5x 0;
     padding: 10px 80px;
     border-radius: 50px;
     text-decoration: none;
@@ -112,134 +132,140 @@ body {
     background-image: linear-gradient(45deg, #FFF 0%, #FFF 100%);
 }
 
+/* 親要素はregistrationクラス */
+.r_img{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.r_img img{
+    width:20%;
+}
+
 .first_apple{
-    position: absolute;
-    width: 14%;
-    height: 6%;
-    top: 90%;
-    left: 14%;
+    padding-right: 20px;
 }
 
 .first_google{
-    position: absolute;
-    width: 14%;
-    height: 6%;
-    top: 90%;
-    left: 30%;
+    padding-left: 20px;
 }
 
 
 /*WinWinって何のcss*/
 .lp_what_is_winwin{
-    height: 1100px;
+    height: auto;
 }
 
 
 .what_is_winwin{
+    padding: 10px 0;
     position: relative;
     height: 400px;
-    margin-top: 30px;
     width: 100%;
 }
 
 .what_is_winwin img{
-    padding-top: 50px;
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 200px;
     position: absolute;
     top: 20%;
-    left: 18%;
-    -webkit-transform : translateY(-50%);
-    transform : translateY(-50%);
+    left: 27%;
 }
 
 .what_is_winwin_title{
     position: absolute;
-    font-size: 80px;
     top: 27%;
-    left: 30%;
+    left: 37%;
     color: #494a4b;
-    -webkit-transform : translateY(-50%);
-    transform : translateY(-50%);
 }
 
 .what_is_winwin_title p{
-    font-size: 40px;
+    font-size: 23px;
 }
 
 .what_is_winwin_span{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 200;
 }
 
 .what_is_winwin_description{
     position: absolute;
-    top: 72%;
-    left: 30%;
+    top: 60%;
+    left: 37%;
+    font-size: 23px;
     color: #494a4b;
-    -webkit-transform : translateY(-50%);
-    transform : translateY(-50%);
 }
 
-/* swiperの実装 */
-.section {
-    /* background: #ded473; */
-    /* height: 850px; */
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-/* box-shadowが聞かないからoverflowプロパティを上書き  */
-.swiper-container{
-    overflow: visible;
+/* winwinとはのコンテンツのswiper */
+/* 高さを自動にする */
+.container_what{
+    height: auto;
 }
 
-.swiper-wrapper {
-    width: 100%;
+.swiper-wrapper{
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
-img{
+.swiper-slide {
+    width: 28%;
+}
+
+.swiper-slide img{
     max-width: 100%;
+}
+
+.swiper-pagination {
+    display: none;
+}
+
+/* こっからコンテント側のクラスのcss実装 */
+/* box-shadowが聞かないからoverflowプロパティを上書き  */
+.what{
+    overflow: visible;
 }
 
 .winwin_content{
     box-shadow: 3px 5px 6px 0px #9E9E9E;
     background-color: #f8f8f8;
-    width: 30%;
     padding: 20px;
     color: #494a4b;
 }
 
+.awsome{
+    color:#FFABCE;
+}
+
 .winwin_content h2{
-    color:#FF33FF;
-    font-size: 30px;
-    width: 100%;
+    display: inline;
+    color:#FFABCE;
+    font-size: 20px;
 }
 
 .winwin_content p{
-    font-size: 18px;
+    text-align: center;
+    font-size: 15px;
 }
-  
-.winwin_content h1{
-    padding-bottom: 0px;
-    margin: 0px;
-    display: inline-block;
-    font-size: 50px;
-    background: linear-gradient(transparent 1.5em, #fecfef 0, #fecfef 1.7em, transparent 0);
+
+.winwin_content img{
+    padding-top: 20px;
 }
 
 .content_span{
-    font-size: 28px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 
 /*how to use winwinの実装*/
 .lp_how_to_use{
-    height: 1500px;
+    height: auto;
     width: 100%;
+    padding: 100px 0;
 }
 /*how to use winwinのタイトルの部分の実装*/
 .how_to_use_title{
@@ -247,6 +273,7 @@ img{
     position: relative;
     height: 300px;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .how_to_use_title img{
@@ -262,7 +289,7 @@ img{
 
 .how_to_use_title h2{
     position: absolute;
-    font-size: 70px;
+    font-size: 25px;
     font-weight: bold;
     top: 45%;
     left: 50%;
@@ -273,9 +300,9 @@ img{
 
 .how_to_use_title p{
     position: absolute;
-    font-size: 40px;
+    font-size: 15px;
     font-weight: bold;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
@@ -283,9 +310,15 @@ img{
 }
 
 /*how to use winwinのコンテンツ部分の実装*/
+/* winwinの使い方のコンテンツのswiper */
+/* 高さを自動にする */
+.container_how{
+    height: auto;
+}
+
+/* こっからコンテント側のクラスのcss実装 */
 .how_to_content{
     text-align: center;
-    width: 30%;
 }
 
 .how_to_No{
@@ -295,7 +328,7 @@ img{
     font-size: 60px;
     font-weight: bold;
     color: #CC0099;
-} 
+}
 
 .how_to_content h3{
     font-size: 25px;
@@ -304,6 +337,7 @@ img{
 
 .how_to_description{
     color: #494a4b;
+    font-size: 15px;
 }
 
 /*フッターの実装*/
@@ -335,13 +369,9 @@ img{
     position: relative;
     width: 30%;
     text-align: center;
-    /* padding-top: 10px; */
 }
 
 .text1 img{
-    /* position: absolute; */
-    /* top: 0;
-    left: 7%; */
     height: 200px;
     width: 270px;
 }
@@ -349,50 +379,39 @@ img{
 .text1 h1{
     position: absolute;
     top: 34%;
-    left: 25%;
+    left: 30%;
     color: #494a4b;
-    font-size: 25px;
+    font-size: 20px;
     display:inline-block;
-    /* background: linear-gradient(transparent 1.5em, #FFCFEF 0, #FFCFEF 1.8em, transparent 0); */
 }
 
 .text2{
-    /* padding-top: 20px; */
     position: relative;
     width: 40%;
     text-align: center;
-    /* padding-top: 60px; */
 }
 
 .text2 img{
-    /* position: absolute; */
-    /* top: 0;
-    left: 7%; */
     height: 280px;
     width: 100%;
 }
 
 .text2 h1{
     position: absolute;
-    top: 15%;
-    left: 17%;
+    top: 20%;
+    left: 25%;
     color: #CC0099;
-    font-size: 35px;
+    font-size: 25px;
     display:inline-block;
-    /* background: linear-gradient(transparent 1.7em, #9AC1F5 0, #9AC1F5 2.0em, transparent 0); */
 }
 
 .text3{
     padding-top: 50px;
     position: relative;
     width: 30%;
-    /* padding-top: 100px; */
 }
 
 .text3 img{
-    /* position: absolute; */
-    /* top: 0;
-    left: 7%; */
     height: 200px;
     width: 270px;
 }
@@ -400,11 +419,10 @@ img{
 .text3 h1{
     position: absolute;
     top: 34%;
-    left: 25%;
+    left: 30%;
     color: #494a4b;
-    font-size: 25px;
+    font-size: 20px;
     display:inline-block;
-    /* background: linear-gradient(transparent 1.5em, #FFCFEF 0, #FFCFEF 1.8em, transparent 0); */
 }
 
 .download{
@@ -497,15 +515,14 @@ img{
 }
 
 .lp_first_view{
-    height: 500px;
+    height: 600px;
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-image: url(../img/lp_firstview_bg_Res1.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-
 }
 /*レスポンシブではプロフィールの画像表示しない*/
 .lp_profile{
@@ -516,16 +533,16 @@ img{
     position: absolute;
     width: 180px;
     height: 180px;
-    top: 70%;
-    left: 0;
+    top: 68%;
+    left: -3%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
 }
 
 .lp_span{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    top: 60%;
+    top: 55%;
     left: 5%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
@@ -538,50 +555,45 @@ img{
 }
 
 
-.lp_first_view p{
+.main_ward{
     font-size: 30px;
     position: absolute;
     margin: 0;
     padding: 0;
-    top: 82%;
-    left: 15%;
+    top: 85%;
+    left: 12%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
     color: white;
 }
+
 /*レスポンシブではクラスからはみ出して表示させるため、ここでは非表示にする。*/
-.lp_first_button{
+.registration{
     display: none;
 }
 
-.lp_first_button:hover {
-    display: none;
-}
-
-.first_apple{
-    display: none;
-}
-
-.first_google{
-    display: none;
-}
 /*レスポンシブでは、登録用のクラスを表示するためここでcssの指定*/
 .for_res_link{
     text-align: center;
     display: block;
-    height: 220px;
+    height: 120px;
     width: 100%;
+    padding-top: 20px;
 }
 
-.subsc_for_res{
-    height: 100px;
+.terms_of_service_privacy p{
+    color: #494a4b;
 }
 
-.lp_first_button_for_res {
-    margin-top: 20px;
+.terms_of_service_privacy a{
+    color: #494a4b;
+}
+
+.lp_first_button_for_res{
+    margin: 0 0 20px 0;
     display: inline-block;
-    font-size: 20px;
-    padding: 10px 80px;
+    font-size: 10px;
+    padding: 10px 40px;
     border-radius: 50px;
     text-decoration: none;
     color: #FFF;
@@ -595,60 +607,75 @@ img{
 
 .first_img_for_res{
     justify-content: center;
-    height: 120px;
     display: flex;
     width: 100%;
 }
 
 .first_img_for_res img{
-    height: 50px;
-    width: 170px;
+    height: 17px;
+    width: 60px;
 }
 
+.first_applefor_res{
+    padding-right: 4px;
+}
+
+.first_googlefor_res{
+    padding-left: 4px;
+}
+
+
+/* WinWinとはの実装 */
 .lp_what_is_winwin{
-    height: 1000px;
+    padding-top: 20px;
+    height: auto;
     width: 100%;
 }
 
 .what_is_winwin{
-    height:160px;
+    height:300px;
+    padding: 0px;
     margin-top: 0;
     text-align: center;
 }
 
 .what_is_winwin img{
     text-align: center;
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 170px;
     padding:0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 5%;
-    right: 0;
+    position: static;
     } 
 
 .what_is_winwin_title {
-    font-size: 10px;
-    position: static;
+    width: 100%;
+    color:#494a4b;
+    position: absolute;
+    top: 22%;
+    left:1%;
 }
 
 .what_is_winwin_title p{
-    padding-top: 20px;
-    padding-left: 10px;
-    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    line-height:250%;
+}
+
+.for_res_br{
+    display:block
 }
 
 .what_is_winwin_span{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .what_is_winwin_description{
-    text-align: left;
-    height: 130px;
+    text-align: center;
+    height: 100px;
     font-size: 9px;
-    position: absolute;
-    top: 75%;
+    position: static;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -659,146 +686,266 @@ img{
     padding-left: 15%;
 }
 
-.section {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .swiper-wrapper {
-    display: flex;
-    justify-content: space-between;
+.swiper-slide {
+    width: 100%;
   }
   
-  .swiper-slide {
-    width: 100%;
+  .swiper-pagination {
+    display: block;
   }
-.lp_how_to_use{
-    /* height: 2000px; */
-}
 
-.how_to_use_contents{
-    flex-direction: column;
-}
+  /* こっからコンテント側のクラスのcss実装 */
+  /* 全体的に文字の大きさ変えとるだけ */
+  .what{
+    overflow: hidden;
+  }
 
-/*how to use winwinのタイトルの部分の実装*/
-.how_to_use_title{
-    position: relative;
-    height: 200px;
+  .swiper-container{
+    padding: 0 50px;
+  }
+
+  /* レスポンシブでpaddingをいれるために作ったクラス */
+  .for_padding{
+      padding: 0 30px;
+  }
+
+  .swiper-wrapper{
     width: 100%;
-    color: #494a4b;
-}
+    }
 
-.how_to_use_title img{
-    position: absolute;
-    width: 420px;
-    height: 250px;
-    top: 45%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
-    margin: auto;
-}
+    .swiper-slide {
+        width: 100%;
+        }
 
-.how_to_use_title h2{
-    position: absolute;
-    font-size: 30px;
-    font-weight: bold;
-    top: 45%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
-    margin: auto;
-}
-
-.how_to_use_title p{
-    position: absolute;
+  .winwin_content{
+    box-shadow: 3px 5px 6px 0px #9E9E9E;
+    padding: 20px 0;
+    /* margin: 0 20px; */
+  }
+  .winwin_content h2{
     font-size: 15px;
-    font-weight: bold;
-    top: 60%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
-    margin: auto;
-}
+  }
 
+  .winwin_content p{
+      font-size: 10px;
+  }
 
-.footer_main{
-    width: 100%;
-    min-height: 100vh;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /* height: 800px; */
-    background-image: url(../img/lp_footer_bg_res1.jpg);
-    background-size: cover;
-}
+  .content_span{
+      font-size: 11px;
+  }
 
-.questions{
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    color: white;
-}
+    .how_to_use_contents{
+        flex-direction: column;
+    }
 
-.download{
-    padding-bottom: 10px;
-    height: 150px;
-    width: 100%;
-    background-color: white;
-    margin: 0;
+    /*how to use winwinのタイトルの部分の実装*/
+
+    .lp_how_to_use{
+        padding: 20px 0;
+    }
+
+    .how_to_use_title{
+        position: relative;
+        height: 200px;
+        width: 100%;
+        color: #494a4b;
+    }
+
+    .how_to_use_title img{
+        position: absolute;
+        width: 270px;
+        height: 180px;
+        top: 60%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit- transform: translateY(-50%) translateX(-50%);
+        margin: auto;
+    }
+
+    .how_to_use_title h2{
+        position: absolute;
+        font-size: 17px;
+        font-weight: bold;
+        top: 58%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit- transform: translateY(-50%) translateX(-50%);
+        margin: auto;
+    }
+
+    .how_to_use_title p{
+        position: absolute;
+        font-size: 10px;
+        font-weight: bold;
+        top: 73%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit- transform: translateY(-50%) translateX(-50%);
+        margin: auto;
+    }
+
+    .how_to_No{
+        line-height: 100px;
+        height: 100px;
+        font-size: 30px;
+    }
+
+    .how_to_content img{
+        height: 300px;
+        width: 160px;
+    }
+
+    .how_to_content h3{
+        font-size: 15px;
+    }
     
-}
+    .how_to_description{
+        font-size: 10px;
+    }
 
-.download_text{
-    width:100%;
-    position: relative;
-    height: 100px;
-    text-align: center;
-}
+    .footer_main{
+        width: 100%;
+        min-height: 100vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url(../img/lp_footer_bg_res1.jpg);
+        background-size: cover;
+    }
 
-.download_text p{
-    width:100%;
-    position: absolute;
-    font-size: 25px;
-    top: 35%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
-    margin: auto;
-}
+    .questions{
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+    }
+    
+    
+    .questions h1{
+        margin: 0;
+    }
+    
+    .text1{
+        padding-top: 0;
+        position: relative;
+        width: 30%;
+        text-align: center;
+    }
+    
+    .text1 img{
+        height: 100px;
+        width: 120px;
+    }
+    
+    .text1 h1{
+        position: absolute;
+        top: 6%;
+        left: 15%;
+        color: #494a4b;
+        font-size: 10px;
+        display:inline-block;
+    }
+    
+    .text2{
+        padding-top: 50px;
+        position: relative;
+        width: 40%;
+        text-align: center;
+    }
+    
+    .text2 img{
+        height: 100px;
+        width: 100%;
+    }
+    
+    .text2 h1{
+        position: absolute;
+        top: 13%;
+        left: 15%;
+        color: #CC0099;
+        font-size: 10px;
+        display:inline-block;
+    }
+    
+    .text3{
+        padding-top: 0;
+        position: relative;
+        width: 30%;
+    }
+    
+    .text3 img{
+        height: 100px;
+        width: 120px;
+    }
+    
+    .text3 h1{
+        position: absolute;
+        top: 6%;
+        left: 15%;
+        color: #494a4b;
+        font-size: 10px;
+        display:inline-block;
+    }
 
-.download_text h1{
-    width:100%;
-    position: absolute;
-    font-size: 26px;
-    color: #CC0099;
-    font-weight: bold;
-    top: 68%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
-    margin: auto;
-}
 
-.download_img{
-    height: 50px;
-    text-align: center;
-}
+    .download{
+        padding-bottom: 10px;
+        height: 150px;
+        width: 100%;
+        background-color: white;
+        margin: 0; 
+    }
 
-.download_img img{
-    width: 180px;
-    height: 40px;
-}
+    .download_text{
+        width:100%;
+        position: relative;
+        height: 100px;
+        text-align: center;
+    }
 
-.footer_apple{
-    padding:0;
-}
+    .download_text p{
+        width:100%;
+        position: absolute;
+        font-size: 23px;
+        top: 35%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit- transform: translateY(-50%) translateX(-50%);
+        margin: auto;
+    }
 
-.footer_google{
-    padding:0;
-}
+    .download_text h1{
+        width:100%;
+        position: absolute;
+        font-size: 23px;
+        color: #CC0099;
+        font-weight: bold;
+        top: 68%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit- transform: translateY(-50%) translateX(-50%);
+        margin: auto;
+    }
+
+    .download_img{
+        height: 50px;
+        text-align: center;
+    }
+
+    .download_img img{
+        width: 160px;
+        height: 40px;
+    }
+
+    .footer_apple{
+        padding:0;
+    }
+
+    .footer_google{
+        padding:0;
+    }
 
 
 }

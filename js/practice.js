@@ -7,6 +7,7 @@
   let options = {   //スライダーの初期化のオプション
     loop: true,
     centeredSlides : true,
+    spaceBetween: 50,//スライド間の余白
     pagination: {
       el: '.swiper-pagination',
       clickable: true,

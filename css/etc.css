@@ -1,0 +1,58 @@
+.pribacy_policy{
+    padding:70px 20%;
+    color: #494a4b;
+}
+
+.back{
+    text-decoration: none;
+    color: #494a4b;
+}
+
+.back p{
+    display: inline;
+}
+
+.title{
+    font-size: 13px;
+    padding: 50px 0px;
+    color: #494a4b;
+}
+
+.paragraph{
+    font-size: 14px;
+    color: #FFB6BB;
+}
+
+.pribacy_policy p{
+    font-size: 13px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.padding{
+    padding-left: 2%;
+}
+
+.paddingMore{
+    padding-left: 4%;
+}
+
+/*スマホ用デザインの実装*/
+@media screen and (max-width:480px){
+
+    .title{
+        font-size: 10px;
+    }
+
+    .paragraph{
+        font-size: 9px;
+    }
+
+    .pribacy_policy p{
+        font-size: 7px;
+    }
+
+
+}
