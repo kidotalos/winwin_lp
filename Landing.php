@@ -9,7 +9,7 @@
         <!-- font-awsomeのCDNを読み込む -->
         <script src="https://kit.fontawesome.com/97b765f07d.js" crossorigin="anonymous"></script>
         <!-- アイコンの画像表示 -->
-        <link rel="icon" href="img/winwin.png" sizes="16x16" type="image/png" />
+        <link rel="icon" href="img/winwin-icon.png" sizes="16x16" type="image/png" />
 
         <!-- レスポンシプ用のタグ -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -46,14 +46,10 @@
     <body>
         <!-- ファーストビューの実装 -->
         <div class="lp_first_view">
-            <div class="for_res">
-                <h1>二次会で使える</h1>
-                <h2>マッチングアプリ</h2>
-            </div>
             <img class="lp_profile" src="img/profile2.png" >
             <img class="lp_winwin" src="img/winwin_top.PNG" >
-            <span class="lp_span">福岡から誕生した！新感覚アプリ</span>
-            <p class="main_ward"><span class="lp_main">5Gの出会い</span><br>を友達と体感</p>
+            <span class="lp_span">いつまで相席屋に行っとーと！？</span>
+            <p class="main_ward">好きな時間に<br><span class="lp_main">好きな場所で</span></p>
             <div class="registration">
                 <div class="terms_of_service_privacy">
                     <p>
@@ -158,13 +154,13 @@
                             <p class="how_to_No">02</p>
                             <img class="how_to_content_img" src="img/HowTo2.png">
                             <h3>「良いね！」を送って<br>相手グループにアピール</h3>
-                            <p class="how_to_description">気になったグループに「良いね！」を送って<br>マッチングをしましょう。</p>
+                            <p class="how_to_description">気になったグループに「良いね！」を送って<br>承認されるとチャットができます。</p>
                         </div>
                         <div class="swiper-slide how_to_content">
                             <p class="how_to_No">03</p>
                             <img class="how_to_content_img" src="img/HowTo3.png">
                             <h3>マッチングが成立後<br>すぐ会える</h3>
-                            <p class="how_to_description">WinWinの最大の特徴は<br>マッチング後にメッセージで<br>場所を決めるだけで会えること！<br>出会うまでの負担を最大限に減らしています。</p>
+                            <p class="how_to_description">マッチング後にチャットで<br>場所を決めるだけで会うことができます！<br>出会うまでの負担を最大限に減らしています。</p>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -185,7 +181,7 @@
                     </div>
                     <div class="text3">
                         <img class="" src="img/unnamed.png" >
-                        <h1>私でも楽しめた！</h1>
+                        <h1>友達と一緒で安心！</h1>
                     </div>
                 </div>
                 <div class="download">

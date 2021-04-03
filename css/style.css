@@ -54,11 +54,11 @@ body {
 }
 
 .main_ward{
-    line-height:150%;
+    line-height:180%;
     position: absolute;
     margin: 0;
     padding: 0;
-    top: 62%;
+    top: 64%;
     -webkit-transform : translateY(-50%);
     transform : translateY(-50%);
     left: 10%;
@@ -67,7 +67,7 @@ body {
 }
 
 .lp_main{
-    font-family: kan415typos-std, sans-serif;
+    font-family: fot-udkakugo-large-pr6n, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 110px;
@@ -95,7 +95,7 @@ body {
 
 .registration{
     position: absolute;
-    top: 78%;
+    top: 79%;
     left: 0%;
     width: 50%;
     text-align: center;
