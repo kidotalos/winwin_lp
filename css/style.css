@@ -365,24 +365,14 @@ body {
 }
 
 .text1{
-    padding-top: 50px;
     position: relative;
     width: 30%;
     text-align: center;
 }
 
 .text1 img{
-    height: 200px;
-    width: 270px;
-}
-
-.text1 h1{
-    position: absolute;
-    top: 34%;
-    left: 30%;
-    color: #494a4b;
-    font-size: 20px;
-    display:inline-block;
+    height: 320px;
+    width: 320px;
 }
 
 .text2{
@@ -392,37 +382,18 @@ body {
 }
 
 .text2 img{
-    height: 280px;
-    width: 100%;
-}
-
-.text2 h1{
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    color: #CC0099;
-    font-size: 25px;
-    display:inline-block;
+    height: 250px;
+    width: 80%;
 }
 
 .text3{
-    padding-top: 50px;
     position: relative;
     width: 30%;
 }
 
 .text3 img{
-    height: 200px;
-    width: 270px;
-}
-
-.text3 h1{
-    position: absolute;
-    top: 34%;
-    left: 30%;
-    color: #494a4b;
-    font-size: 20px;
-    display:inline-block;
+    height: 320px;
+    width: 320px;
 }
 
 .download{
@@ -835,17 +806,8 @@ body {
     }
     
     .text1 img{
-        height: 100px;
+        height: 120px;
         width: 120px;
-    }
-    
-    .text1 h1{
-        position: absolute;
-        top: 6%;
-        left: 15%;
-        color: #494a4b;
-        font-size: 10px;
-        display:inline-block;
     }
     
     .text2{
@@ -860,35 +822,16 @@ body {
         width: 100%;
     }
     
-    .text2 h1{
-        position: absolute;
-        top: 13%;
-        left: 15%;
-        color: #CC0099;
-        font-size: 10px;
-        display:inline-block;
-    }
-    
     .text3{
-        padding-top: 0;
+        padding-top: 60px;
         position: relative;
         width: 30%;
     }
     
     .text3 img{
-        height: 100px;
+        height: 120px;
         width: 120px;
     }
-    
-    .text3 h1{
-        position: absolute;
-        top: 6%;
-        left: 15%;
-        color: #494a4b;
-        font-size: 10px;
-        display:inline-block;
-    }
-
 
     .download{
         padding-bottom: 10px;

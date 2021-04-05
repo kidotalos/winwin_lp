@@ -172,16 +172,13 @@
             <div class="footer_main">
                 <div class="questions">
                     <div class="text1">
-                        <img class="" src="img/unnamed.png" >
-                        <h1>簡単に出会えた！</h1>
+                        <img class="" src="img/footer_cloud1.png" >
                     </div>
                     <div class="text2">
-                        <img class="" src="img/unnamed.png" >
-                        <h1>友達といる時に使える<br>アプリがあったんだ！</h1>
+                        <img class="" src="img/footer_cloud2.png" >
                     </div>
                     <div class="text3">
-                        <img class="" src="img/unnamed.png" >
-                        <h1>友達と一緒で安心！</h1>
+                        <img class="" src="img/footer_cloud3.png" >
                     </div>
                 </div>
                 <div class="download">
