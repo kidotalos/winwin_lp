@@ -104,7 +104,7 @@
                                     <i class="fas fa-history awsome"></i>
                                     <h2 class="content_title">すぐに出会える</h2>
                                     <img class="content_img" src="img/content1.jpg" alt="すぐに会える">
-                                    <p class="content_text">WinWinでは<span class="content_span">「リアルタイム」</span>で<br>近くのユーザーが表示されます！<br>その日のうちにマッチングできるアプリです！</p>
+                                    <p class="content_text">WinWinでは<span class="content_span">「リアルタイム」</span>で<br>近くのユーザーが表示されます！<br>その日のうちにマッチングができ、出会う<br>までの負担を最大限に減らしています！</p>
                                 </div>
                             </div>
                             <div class="swiper-slide winwin_content">
@@ -112,7 +112,7 @@
                                     <i class="fas fa-user-friends awsome"></i>
                                     <h2 class="content_title">友達と一緒で安心できる</h2>
                                     <img class="content_img" src="img/content2.jpg" alt="友達と一緒で安心できる">
-                                    <p class="content_text">WinWinでは<span class="content_span">「友達同士」</span>で<br>ご利用いただくため、全てのユーザーが<br>２人以上です！※最大５人まで</p>
+                                    <p class="content_text">WinWinでは<span class="content_span">「友達同士」</span>での<br>ご利用が可能となっております。<br>そのため１人では不安な女性でも<br>安心してご利用いただけます！</p>
                                 </div>
                             </div>
                             <div class="swiper-slide winwin_content">
@@ -120,7 +120,7 @@
                                     <i class="fas fa-map-marker-alt awsome"></i>
                                     <h2 class="content_title">場所を自由に選べる</h2>
                                     <img class="content_img" src="img/content3.jpg" alt="場所を自由に選べる">
-                                    <p class="content_text">WinWinでは<span class="content_span">「好きな場所」</span>で<br>人の目を気にせずに遊べます！<br>行ったところが相席屋に！？</p>
+                                    <p class="content_text">WinWinでは<span class="content_span">「好きな場所」</span>で<br>人の目を気にせずに遊べます！<br>「相席屋で喋るだけでつまんなかった」<br>なんてことはもう言わせません！</p>
                                 </div>
                             </div>
                         </div>
