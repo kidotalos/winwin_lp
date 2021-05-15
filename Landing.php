@@ -195,7 +195,8 @@
         <div class="footer_sub">
             <img class="footer_winwin" src="img/winwin_footer.PNG" alt="雲の画像">
             <p>Copyright © 2021 YOLO Inc. All Rights Reserved.</p>
-            <p>運営会社　｜　個人情報保護方針</p>
+            <a href='mailto:winwinfk2020@gmail.com'>お問い合わせ</a>
+            <!-- <p>運営会社　｜　個人情報保護方針</p> -->
         </div>
         </div>
         <!-- jsを読み込む(swiperのjsを先に読み込む) -->
