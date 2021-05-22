@@ -1,58 +1,55 @@
-.pribacy_policy{
-    padding:70px 20%;
-    color: #494a4b;
+.pribacy_policy {
+  padding: 70px 12%;
+  color: #494a4b;
 }
 
-.back{
-    text-decoration: none;
-    color: #494a4b;
+.back {
+  text-decoration: none;
+  color: #494a4b;
 }
 
-.back p{
-    display: inline;
+.back p {
+  display: inline;
 }
 
-.title{
-    font-size: 13px;
-    padding: 50px 0px;
-    color: #494a4b;
+.title {
+  font-size: 17px;
+  padding: 50px 0px;
+  color: #494a4b;
 }
 
-.paragraph{
-    font-size: 14px;
-    color: #FFB6BB;
+.paragraph {
+  font-size: 15px;
+  color: #ffb6bb;
 }
 
-.pribacy_policy p{
-    font-size: 13px;
+.pribacy_policy p {
+  font-size: 14px;
 }
 
-.bold{
-    font-weight: 600;
+.bold {
+  font-weight: 600;
 }
 
-.padding{
-    padding-left: 2%;
+.padding {
+  padding-left: 2%;
 }
 
-.paddingMore{
-    padding-left: 4%;
+.paddingMore {
+  padding-left: 4%;
 }
 
 /*スマホ用デザインの実装*/
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 13px;
+  }
 
-    .title{
-        font-size: 10px;
-    }
+  .paragraph {
+    font-size: 12px;
+  }
 
-    .paragraph{
-        font-size: 9px;
-    }
-
-    .pribacy_policy p{
-        font-size: 7px;
-    }
-
-
+  .pribacy_policy p {
+    font-size: 11px;
+  }
 }
